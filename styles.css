@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+:root{
+    --corprincipal: #ffff;
+    --corsecundaria: #cedbaf;
+    --cortitulo: #88ab86;
+    --corterciaria: #aac3ac;
+    --cortexto: #6b6b6b;
+
+}
+
+body {
+
+    background: var(--corprincipal);
+    
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family:  'Roboto', sans-serif;
+}
+
+.container{
+
+    margin: auto;
+    width: 960px;
+    height: 650px;
+    padding: 5px;
+
+
+}
+
+.logo{
+
+    width: 100%;
+    float: left;
+
+}
+
+.logoImg{
+
+    margin-top: 1%;
+    float: inherit;
+    margin-left: 5%;
+    width: 70px;
+    height: 75px;
+}
+
+.titulo{
+
+    float: inherit;
+    margin-left: 58%;
+    font-size: 30px;
+    margin-top: 1%;
+    color: var(--cortitulo);
+
+}
+.esquerda{
+
+    float: left;
+    width: 70%;
+    height: 60%;
+    border-radius: 24px;
+
+}
+
+.text-input{
+
+    float: left;
+    margin-left: 10%;
+    margin-top: 10%;
+    width: 80%;
+    height: 80%;
+    color: #6b6b6b;
+    font-size: 20px;
+    border: none;
+    outline: none;
+}
+
+.direita{
+    float: right;
+    width: 25%;
+    height: auto;
+    border-radius: 24px;
+    background: var(--corprincipal);
+    border: 2px solid var(--corterciaria);
+
+}
+
+#imgDireita{
+
+    margin-top: 10%;
+    width: 90%;
+    height: auto;
+    margin-left: 5%;
+}
+
+#copy{
+
+    margin-left: 25%;
+    margin-top: 33%;
+    padding: 24px;
+    width: 50%;
+    height: 10%;
+    border-radius: 24px;
+    border: 2px solid var(--corterciaria);
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    display: none;
+
+    
+}
+#texto1{
+
+    text-align: center;
+    margin-left: 7%;
+    margin-right: 5%;
+    color: var(--cortexto);
+    font-size: 20px;
+}
+
+#texto2{
+
+    float: left;
+    margin-left: 10%;
+    color: var(--cortexto);
+    width: 80%;
+    height: 60%;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    text-align: center;
+    margin-top: 25%;
+    resize: none;
+   
+}
+.btnEsquerda{
+
+    float: left;
+    width: 60%;
+    height: auto;
+    border-radius: 24px;
+
+}
+
+#btnCriptografar{
+
+    padding: 24px;
+    width: 30%;
+    height: 60%;
+    border-radius: 24px;
+    margin-left: 15%;
+    border: 2px solid var(--corterciaria);
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+
+}
+
+#btnDescriptografar{
+
+    padding: 24px;
+    width: 30%;
+    height: 60%;
+    border-radius: 24px;
+    margin-left: 8%;
+    border: 2px solid var(--corterciaria);
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+
+}
+
+#aviso{
+
+    text-align: center;
+    margin-bottom: 5%;
+    font-size: 15px;
+    color: var(--cortexto);
+    font-style: italic;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.rodape{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2%;
+    margin-top: 15px;
+    background: var(--corsecundaria);
+    color: var(--cortitulo);
+   
+}
+
+.rodape h3{
+
+    font-size: 16px;
+    color: #2baf78;
+    font-family: 'Roboto', sans-serif;
+}
+
+.icons ion-icon{
+
+    width: 25px;
+    height: 25px;
+    color: #2baf78;
+}
